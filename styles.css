@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Poppins&display=swap');
+
+
+*{
+    font-family: DM Sans;
+    margin: 0px;
+    padding: 0px;
+    color: white;
+}
+.main-c{
+    display: flex;
+    position: relative;
+}
+.donwloadleft{
+    display: flex;
+    padding: 20px;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.downloadleft img{
+    display: flex;
+}
+.downloadleft p{
+    display: flex;
+}
+
+
+.left-side{
+    display: flex;
+    width: 371.801px;
+    height:1115.885px;
+    flex-shrink: 0;
+    background-color: black;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+}
+.logo1{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+.left-side button{
+    width: 347.097px;
+    height: 61.761px;
+    border: none;
+    flex-shrink: 0;
+    text-align: center;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    padding: 40px;
+    background-color: rgb(0, 0, 0);
+
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -1.14px;
+
+    border-radius: 6px;
+
+}
+.left-side button:hover{
+    background: #282828;
+    cursor: pointer;
+}
+
+.logo1 img{
+    width: 202.576px;
+    height: 60.526px;
+    padding-right: 20px;
+}
+.c1left img, .c2left img {
+    display: flex;
+}
+
+.c1left a,.c2left a{
+    display: flex;
+    text-decoration: none;
+    
+    padding-left: 30px;
+}
+
+.c1left ul, .c2left ul{
+    list-style: none;
+}
+.c1left{
+    display: flex;
+}
+.c2left{
+    display: flex;
+}
+
+
+
+
+.hero{
+
+        display: flex;
+        width: 1457.1px;
+        height: 1115.885px;
+        flex-shrink: 0;
+        background: linear-gradient(180deg, #222 0%, #1F1F1F 11.64%, #171717 25.66%, #161616 32.94%, #151515 35.98%, #131313 44.89%, #121212 55.22%, #121212 75.34%, #121212 85.45%, rgba(18, 18, 18, 0.00) 100%); 
+        padding: 20px;
+       
+        flex-direction: column;
+    }
+
+.hero h1{
+    display: flex;
+    
+}
+
+.song1{
+
+    position: relative;
+    display: flex;
+ 
+    height: 320px;
+ 
+    width: 1450px;
+ 
+    justify-content: space-between;
+       
+    flex-direction: row;
+    flex-wrap: wrap;
+  
+    }
+
+
+.tosong{
+    padding-top: 30px;
+   display: flex;
+    position: relative;
+    width: 462px;
+    height: 100px;
+    flex-shrink: 0;
+    flex-direction: row;
+ 
+}
+.lefttosong{
+    display: flex;
+    width: 100px;
+height: 100px;
+flex-shrink: 0;
+border-radius: 4px 0px 0px 4px;
+background: linear-gradient(135deg, #4000F4 0%, #603AED 22.48%, #7C6EE6 46.93%, #979FE1 65.71%, #A2B3DE 77.68%, #ADC8DC 88.93%, #C0ECD7 100%);
+}
+.righttosong{
+   
+    width: 362px;
+    height: 100px;
+    flex-shrink: 0;
+    display: flex;
+    border-radius: 4px;
+    background: #303030;
+    align-items: center;
+    justify-content: center;
+}
+
+.cont2r{
+    display: flex;
+    justify-content: space-between;
+}
+.cont2r h2{
+    display: flex;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -1.16px;
+}
+.cont2r span{
+    display: flex;
+    color: #B3B3B3;
+font-family: DM Sans;
+font-size: 17px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.68px;
+}
+.cont2r span:hover
+{
+    color: #979FE1;
+    cursor: pointer;
+}
+.artistgal{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 1300px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+
+}
+.artist{
+    display: flex;
+    width: 251.292px;
+    height: 305.904px;
+    background: #181818;
+    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: #282828;
+    padding-left: 30px;
+}
+.artist img{border-radius: 14px;
+    width: 207.778px;
+    height: 207.928px;
+
+    display: flex;
+}
+.artist h3{
+    display: flex;
+    color: #FFF;
+font-family: DM Sans;
+font-size: 21px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: -0.42px;
+justify-content: center;
+
+}
+.artist p{
+    display: flex;
+    color: #B3B3B3;
+font-family: DM Sans;
+font-size: 15px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.15px;
+}
+.cont2r{
+    padding: 40px;
+}
