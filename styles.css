@@ -27,8 +27,10 @@
 
 .left-side{
     display: flex;
-    width: 371.801px;
-    height:1115.885px;
+    width: 371.80126953125px;
+    height: 982px;
+    top: 1px;
+
     flex-shrink: 0;
     background-color: black;
     flex-direction: column;
@@ -48,8 +50,8 @@
     text-align: center;
     display: flex;
     justify-content:flex-start;
-    align-items: center;
-    padding: 40px;
+    
+  
     background-color: rgb(0, 0, 0);
 
     color: #FFF;
@@ -89,9 +91,12 @@
 }
 .c1left{
     display: flex;
+    padding-top: 10px;
+
 }
 .c2left{
     display: flex;
+    padding-top:30px ;
 }
 
 
@@ -100,8 +105,10 @@
 .hero{
 
         display: flex;
-        width: 1457.1px;
-        height: 1115.885px;
+        /* width: 1447.1px; */
+        width: 1573px;
+        /* height: 1115.885px; */
+        height: 950px;
         flex-shrink: 0;
         background: linear-gradient(180deg, #222 0%, #1F1F1F 11.64%, #171717 25.66%, #161616 32.94%, #151515 35.98%, #131313 44.89%, #121212 55.22%, #121212 75.34%, #121212 85.45%, rgba(18, 18, 18, 0.00) 100%); 
         padding: 20px;
@@ -194,26 +201,35 @@ letter-spacing: 0.68px;
     display: flex;
     flex-direction: row;
     height: 100%;
-    width: 1300px;
+    width: 1200px;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    
+    position: relative;
+    padding-left:20px ;
 
 }
 .artist{
     display: flex;
+    left: 0px;
     width: 251.292px;
     height: 305.904px;
     background: #181818;
-    
+     
     flex-direction: column;
+    
     justify-content: center;
     align-items: center;
     border-radius: 10px;
     box-shadow: #282828;
-    padding-left: 30px;
+   
 }
-.artist img{border-radius: 14px;
+.artist:hover{
+    background-color: #303030;
+}
+.artist img{
+    display: flex;
+    align-items: center;
+    border-radius: 14px;
     width: 207.778px;
     height: 207.928px;
 
@@ -228,11 +244,13 @@ font-style: normal;
 font-weight: 500;
 line-height: normal;
 letter-spacing: -0.42px;
-justify-content: center;
+
+justify-content: flex-start;
 
 }
 .artist p{
     display: flex;
+    justify-content: flex-start;
     color: #B3B3B3;
 font-family: DM Sans;
 font-size: 15px;
@@ -243,4 +261,132 @@ letter-spacing: 0.15px;
 }
 .cont2r{
     padding: 40px;
+}
+
+
+.heronav{
+    height: 100%;
+   
+    padding: 20px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.rightnav button{
+    display: flex;
+    width: 147px;
+    border: none;
+height: 51px;
+flex-shrink: 0;
+border-radius: 33px;
+background: #0A0A0A;
+color: #FFF;
+font-family: DM Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.4px;
+justify-content: space-between;
+padding-left: 10px;
+padding-right: 10px;
+align-items: center;
+}
+.rightnav button:hover{
+    cursor: pointer;
+    background-color: #4000F4;
+}
+.leftnav{
+    display: flex;
+    flex-direction: row;
+
+}
+.leftnav img{
+    
+    width: 37px;
+height: 37px;
+flex-shrink: 0;
+border-radius: 37px;
+}
+
+
+.musicplayer{
+    bottom: 0px;
+    display: flex;
+    position: sticky;
+    width: 2005.1px;
+    height: 112px;
+    background-color:#181818;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+
+}
+.mp1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.eright{
+    padding-left:20px ;
+}
+.mp1right{
+    padding-left: 20px;
+
+}
+.mp1right h2{
+    color: #FFF;
+font-family: DM Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.9px;
+
+}
+.mp1right h3{
+    color: #B3B3B3;
+font-family: DM Sans;
+font-size: 15px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.75px;
+}
+
+.mp2{
+    display: flex;
+    height: 100px;
+    width: 500px;
+   
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+.mp21{
+    padding-left: 100px;
+    display: flex;
+    height: 100px;
+    width: 300px;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+.mp22{
+    display: flex;
+    align-items: center;
+}
+.mp3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.mp3 img{
+    display: flex;
+    padding-left:10px ;
+
 }
