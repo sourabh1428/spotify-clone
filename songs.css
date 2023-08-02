@@ -1,16 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Gothic+A1&family=Poppins&display=swap');
 
 *{
     margin: 0px;
     padding: 0px;
-
 }
 
 .left-side{
+    position: absolute;
     display: flex;
     width: 230px;
     height: 1080px;
-    top: 10px;
+  
 
     flex-shrink: 0;
     background-color: black;
@@ -59,11 +60,7 @@
     height: 60.526px;
     padding-right: 20px;
 }
-.logo1 img{
-    width: 202.576px;
-    height: 60.526px;
-    padding-right: 20px;
-}
+
 .c1left a,.c2left a{
     color: white;
     display: flex;
@@ -73,18 +70,216 @@
 }
 .musiccard{
     display: flex;
-    padding-top: 200px;
+   position: absolute;
+   
+    
+    top: 735px;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content:flex-start;
+    left: 0px;
+    
+  justify-content: center;
+
+
+}
+.musiccard img{
+    display: flex;
+
 }
 .content1{
+    display: flex;
+    height: 1080px;
+    width: 1820px;
     position: absolute;
-    top: 10px;
-    left: 300px;
+    margin-left:270px;
+
+    flex-direction: column;
+}
+.con1up{
+    
+
+    position: relative;
 
     display: flex;
-    width: 1921px;
-    height: 719px;
-    flex-shrink: 0;
-    background: linear-gradient(180deg, #90AEA7 0%, #000 100%);
+    width: 1700px;
+   height: 800px;
+   background-color: rebeccapurple;
+   border: 2px solid black;
+    padding: 100px;
+    flex-direction: row;
+    background: linear-gradient(180deg, #393936 0%, rgba(57, 57, 50, 0.42) 100%);
+}
+.con1img{
+    width: 230px;
+    height: 233px;
+    display: flex;
+    box-shadow: 0px 0px 29.675504684448242px 0px rgba(5, 5, 5, 0.61);
+}
+.con1con{
+    height: 300px;
+    width: 500px;
+
+    display: flex;
+    position: relative;
+
+    flex-direction: column;
+    padding-left: 30px;
+    justify-content: flex-start;
+
+}
+.pcon1up{
+    display:flex;
+    color: #FFF;
+    font-family: Gothic A1;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 21px; /* 175% */
+}
+
+.pcon1down{
+    display: flex;
+    padding-top: 200px;
+    color: #BEBEBD;
+    font-family: Gothic A1;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 21px; /* 150% */
+}
+
+
+.con1conph{
+    display: flex;
+    height: 103px; 
+    width: 500px;
+    position: absolute;
+    top: 90px;
+
+   
+    color: #FFF;
+    font-family: Gothic A1;
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 21px; /* 28.378% */
+}
+.pconfot{
+    display: flex;
+    gap: 20px;
+    color: #FFF;
+    font-family: Gothic A1;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 21px; /* 175% */
+}
+.pconfot p{
+    color: #BEBEBD;
+    font-family: Gothic A1;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 21px; /* 175% */
+}
+.conmid{
+    position: absolute;
+
+    top: 360px;
+
+    height: 150px;
+    width: 1840px;
+    border: 2px solid black;
+    display: inline-flex;
+    padding: 20px 30px;
+    align-items: center;
+    gap: 26px;
+    border-bottom: 1px solid #2E2E2C;
+    background: #191919;
+}
+
+.con1down{
+    height: 750px;
+    width: 1840px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 500px;
+
+
+}
+.con1down th{
+    border: none;
+   
+
+    text-align: center;
+    color: #FFF;
+    font-family: Gothic A1;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px; /* 175% */
+}
+.con1down tr{
+    align-items: center;
+    background-color: #2E2E2C;
+    color: whitesmoke;
+    border: none;
+    height: 100px;
+   
+}
+.con1down td{
+    border: none;
+    text-align: center;
+}
+.contable{
+    border-collapse:collapse;
+    border: none;
+}
+.con1td{
+    color: #B3B3B3; 
+    font-family: Gothic A1;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px; /* 175% */
+}
+
+.cardtable{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.cardtable img{
+    display: flex;
+
+}
+
+.cct1{
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cardtable p{
+    display: flex;
+    font-size: x-small;
+    font-family: Gothic A1;
+    color: #B3B3B3;
+
+}
+.cardtable h3{
+    display: flex;
+    font-size: small;
+    font-family: Gothic A1;
+   
+}
+
+.tablenum{
+    width: 30px;
+    text-align: end;
 }
